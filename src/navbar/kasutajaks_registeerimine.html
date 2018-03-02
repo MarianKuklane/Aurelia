@@ -1,23 +1,21 @@
 <template>
 
-<!DOCTYPE html>
-<html>
 <meta charset="utf-8">
 <require from="kujundus/kujundus.css"> </require>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+<body class="body">
+
+<require from="nav-bar.html"></require>
+	<nav-bar></nav-bar>
+
 <div class="main-content">
 
-	<div class="navbar">
-		<a href="index.html">Pealeht</a>
-		<a href="lisauus.html">Lisa uus</a>
-		<a href="kasutajaks_registeerimine.html">Registeeru</a>
-	</div>
 
 	<div class="tabs-panel">
-		<a href="kasutajaks_registeerimine.html">Eraisiku registeerimine</a>
-		<a href="ettevõtte_registeerimine.html">Ettevõtte registeerimine</a>	
+		<a  class="nav-link" href="#/regakas">Eraisiku registeerimine</a>
+		<a  class="nav-link" href="#/regaette">Ettevõtte registeerimine</a>	
 	</div>
 	
 	
@@ -52,6 +50,6 @@
 	</fieldset>
 	
 </div>
-</html>
+</body>
 
 </template>
